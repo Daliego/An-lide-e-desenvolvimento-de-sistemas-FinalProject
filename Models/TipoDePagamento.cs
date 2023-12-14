@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,9 +8,13 @@ namespace thirdProject.Models
 {
     public class TipoDePagamento
     {
-        public int Id {get; set;}
-        public string NomeDoCobrador {get; set;}
-        public string InformacoesAdicionais {get; set;}
-        public NotaDeVenda NotaDeVenda {get; set;}
+        [Display(Name = "Código")]
+        public int Id { get; set; }
+        [Display(Name = "Nome do Cobrador")]
+        public string NomeDoCobrador { get; set; }
+        [Display(Name = "Informações Adicionais")]
+        public string InformacoesAdicionais { get; set; }
+        [Display(Name = "Nota de Venda")]
+        public NotaDeVenda NotaDeVenda { get; set; }
     }
 }
