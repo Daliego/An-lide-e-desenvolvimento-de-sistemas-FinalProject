@@ -15,24 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\diego\Programacao\ADS_2023.2\analise_e_desenvolvimento_de_projetos\projetos\thirdProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Cliente/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Cliente/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Cliente/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Cliente/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Cliente/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Home/Index.cshtml]
@@ -43,44 +43,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Item/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Itens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Item/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Itens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Item/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Itens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Item/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Itens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Item/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Itens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marca/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marcas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marca/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGVsZXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marcas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marca/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGV0YWlscy5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marcas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marca/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marcas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marca/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcSW5kZXguY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Marcas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/NotaDeVenda/Create.cshtml]
@@ -103,84 +103,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YURlVmVuZGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCartao/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2FydGFvXENyZWF0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCartao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNhcnRhb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCartao/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2FydGFvXERlbGV0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCartao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNhcnRhb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCartao/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2FydGFvXERldGFpbHMuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCartao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNhcnRhb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCartao/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2FydGFvXEVkaXQuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCartao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNhcnRhb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCartao/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2FydGFvXEluZGV4LmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCartao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNhcnRhb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCheque/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2hlcXVlXENyZWF0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCheque/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNoZXF1ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCheque/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2hlcXVlXERlbGV0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCheque/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNoZXF1ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCheque/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2hlcXVlXERldGFpbHMuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCheque/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNoZXF1ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCheque/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2hlcXVlXEVkaXQuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCheque/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNoZXF1ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentoComCheque/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvQ29tQ2hlcXVlXEluZGV4LmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/PagamentosComCheque/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvc0NvbUNoZXF1ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Pagamento/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXENyZWF0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Pagamento/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXERlbGV0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produtos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Pagamento/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXERldGFpbHMuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produtos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Pagamento/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXEVkaXQuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Pagamento/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produto/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produto/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produto/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produto/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produto/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Shared/Error.cshtml]
@@ -191,64 +171,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TipoDePagamento/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RlUGFnYW1lbnRvXENyZWF0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TiposDePagamento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NEZVBhZ2FtZW50b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TipoDePagamento/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RlUGFnYW1lbnRvXERlbGV0ZS5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TiposDePagamento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NEZVBhZ2FtZW50b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TipoDePagamento/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RlUGFnYW1lbnRvXERldGFpbHMuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TiposDePagamento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NEZVBhZ2FtZW50b1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TipoDePagamento/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RlUGFnYW1lbnRvXEVkaXQuY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TiposDePagamento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NEZVBhZ2FtZW50b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TipoDePagamento/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RlUGFnYW1lbnRvXEluZGV4LmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/TiposDePagamento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NEZVBhZ2FtZW50b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadora/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadoras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadora/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFcRGVsZXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadoras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadora/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFcRGV0YWlscy5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadoras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadora/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFcRWRpdC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadoras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadora/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFcSW5kZXguY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Transportadoras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0YWRvcmFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedor/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedor/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcRGVsZXRlLmNzaHRtbA==
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedor/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcRGV0YWlscy5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedor/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcRWRpdC5jc2h0bWw=
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcSW5kZXguY3NodG1s
+[C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/Vendedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diego/Programacao/ADS_2023.2/analise_e_desenvolvimento_de_projetos/projetos/thirdProject/Views/_ViewImports.cshtml]

@@ -8,11 +8,9 @@ namespace thirdProject.Models
 {
     public class Cliente
     {
-        [Display(Name = "Código")]
+        [Display(Name = "Código"), Key()]
         public int Id { get; set; }
         [Display(Name = "Nome")]
-        public string? Nome { get; set; }
-        [Display(Name = "Nota de Venda")]
-        public NotaDeVenda NotaDeVenda { get; set; }
+        public string Nome { get; set; } = string.Empty;
     }
 }

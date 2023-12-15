@@ -8,7 +8,7 @@ namespace thirdProject.Models
 {
     public class PagamentoComCheque : TipoDePagamento
     {
-        [Display(Name = "Número do Banco")]
+        [Display(Name = "Número do Cheque")]
         public int Banco { get; set; }
         [Display(Name = "Nome do Banco")]
         public string NomeDoBanco { get; set; }

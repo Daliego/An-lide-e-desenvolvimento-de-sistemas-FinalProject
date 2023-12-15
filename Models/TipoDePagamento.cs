@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace thirdProject.Models
 {
-    public class TipoDePagamento
+    public abstract class TipoDePagamento
     {
-        [Display(Name = "Código")]
+        [Display(Name = "Código"), Key()]
         public int Id { get; set; }
-        [Display(Name = "Nome do Cobrador")]
-        public string NomeDoCobrador { get; set; }
+        [Display(Name = "Nome do Cobrado")]
+        public string NomeDoCobrado { get; set; }
         [Display(Name = "Informações Adicionais")]
         public string InformacoesAdicionais { get; set; }
-        [Display(Name = "Nota de Venda")]
-        public NotaDeVenda NotaDeVenda { get; set; }
     }
 }

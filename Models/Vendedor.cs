@@ -8,10 +8,9 @@ namespace thirdProject.Models
 {
     public class Vendedor
     {
-        [Display(Name = "Código")]
+        [ Display(Name = "Código"),Key()]
         public int Id { get; set; }
-        [Display(Name = "Nome")]
+        [ Display(Name = "Nome")]
         public string Nome { get; set; }
-        public NotaDeVenda NotaDeVenda { get; set; }
     }
 }

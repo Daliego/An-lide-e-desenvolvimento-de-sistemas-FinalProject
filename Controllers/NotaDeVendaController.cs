@@ -22,7 +22,8 @@ namespace thirdProject.Controllers
         // GET: NotaDeVenda
         public async Task<IActionResult> Index()
         {
-            return View(await _context.NotaDeVenda.ToListAsync());
+            var myDbContext = _context.NotasDeVendas.Include(n => n.Cliente).Include(n => n.TipoDePagamento).Include(n => n.Transportadora).Include(n => n.Vendedor);
+            return View(await myDbContext.ToListAsync());
         }
 
         // GET: NotaDeVenda/Details/5
@@ -33,7 +34,11 @@ namespace thirdProject.Controllers
                 return NotFound();
             }
 
-            var notaDeVenda = await _context.NotaDeVenda
+            var notaDeVenda = await _context.NotasDeVendas
+                .Include(n => n.Cliente)
+                .Include(n => n.TipoDePagamento)
+                .Include(n => n.Transportadora)
+                .Include(n => n.Vendedor)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (notaDeVenda == null)
             {
@@ -46,6 +51,10 @@ namespace thirdProject.Controllers
         // GET: NotaDeVenda/Create
         public IActionResult Create()
         {
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id");
+            ViewData["TipoDePagamentoId"] = new SelectList(_context.TiposDePagamento, "Id", "Id");
+            ViewData["TransportadoraId"] = new SelectList(_context.Transportadoras, "Id", "Id");
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id");
             return View();
         }
 
@@ -54,7 +63,7 @@ namespace thirdProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Data,Tipo,Cancelar,Devolver")] NotaDeVenda notaDeVenda)
+        public async Task<IActionResult> Create([Bind("Id,Data,Tipo,ClienteId,VendedorId,TransportadoraId,TipoDePagamentoId,Cancelar,Devolver")] NotaDeVenda notaDeVenda)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +71,10 @@ namespace thirdProject.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id", notaDeVenda.ClienteId);
+            ViewData["TipoDePagamentoId"] = new SelectList(_context.TiposDePagamento, "Id", "Id", notaDeVenda.TipoDePagamentoId);
+            ViewData["TransportadoraId"] = new SelectList(_context.Transportadoras, "Id", "Id", notaDeVenda.TransportadoraId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", notaDeVenda.VendedorId);
             return View(notaDeVenda);
         }
 
@@ -73,11 +86,15 @@ namespace thirdProject.Controllers
                 return NotFound();
             }
 
-            var notaDeVenda = await _context.NotaDeVenda.FindAsync(id);
+            var notaDeVenda = await _context.NotasDeVendas.FindAsync(id);
             if (notaDeVenda == null)
             {
                 return NotFound();
             }
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id", notaDeVenda.ClienteId);
+            ViewData["TipoDePagamentoId"] = new SelectList(_context.TiposDePagamento, "Id", "Id", notaDeVenda.TipoDePagamentoId);
+            ViewData["TransportadoraId"] = new SelectList(_context.Transportadoras, "Id", "Id", notaDeVenda.TransportadoraId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", notaDeVenda.VendedorId);
             return View(notaDeVenda);
         }
 
@@ -86,7 +103,7 @@ namespace thirdProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Data,Tipo,Cancelar,Devolver")] NotaDeVenda notaDeVenda)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Data,Tipo,ClienteId,VendedorId,TransportadoraId,TipoDePagamentoId,Cancelar,Devolver")] NotaDeVenda notaDeVenda)
         {
             if (id != notaDeVenda.Id)
             {
@@ -113,6 +130,10 @@ namespace thirdProject.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id", notaDeVenda.ClienteId);
+            ViewData["TipoDePagamentoId"] = new SelectList(_context.TiposDePagamento, "Id", "Id", notaDeVenda.TipoDePagamentoId);
+            ViewData["TransportadoraId"] = new SelectList(_context.Transportadoras, "Id", "Id", notaDeVenda.TransportadoraId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", notaDeVenda.VendedorId);
             return View(notaDeVenda);
         }
 
@@ -124,7 +145,11 @@ namespace thirdProject.Controllers
                 return NotFound();
             }
 
-            var notaDeVenda = await _context.NotaDeVenda
+            var notaDeVenda = await _context.NotasDeVendas
+                .Include(n => n.Cliente)
+                .Include(n => n.TipoDePagamento)
+                .Include(n => n.Transportadora)
+                .Include(n => n.Vendedor)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (notaDeVenda == null)
             {
@@ -139,15 +164,15 @@ namespace thirdProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var notaDeVenda = await _context.NotaDeVenda.FindAsync(id);
-            _context.NotaDeVenda.Remove(notaDeVenda);
+            var notaDeVenda = await _context.NotasDeVendas.FindAsync(id);
+            _context.NotasDeVendas.Remove(notaDeVenda);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool NotaDeVendaExists(int id)
         {
-            return _context.NotaDeVenda.Any(e => e.Id == id);
+            return _context.NotasDeVendas.Any(e => e.Id == id);
         }
     }
 }

@@ -26,16 +26,12 @@ namespace thirdProject.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("longtext");
-
-                    b.Property<int?>("NotaDeVendaId")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NotaDeVendaId");
-
-                    b.ToTable("Cliente");
+                    b.ToTable("Clientes");
                 });
 
             modelBuilder.Entity("thirdProject.Models.Item", b =>
@@ -44,18 +40,28 @@ namespace thirdProject.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int?>("NotaDeVendaId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Percentual")
                         .HasColumnType("int");
 
                     b.Property<double>("Preco")
                         .HasColumnType("double");
 
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Item");
+                    b.HasIndex("NotaDeVendaId");
+
+                    b.HasIndex("ProdutoId");
+
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("thirdProject.Models.Marca", b =>
@@ -68,18 +74,13 @@ namespace thirdProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("ProdutoId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("ProdutoId");
-
-                    b.ToTable("Marca");
+                    b.ToTable("Marcas");
                 });
 
             modelBuilder.Entity("thirdProject.Models.NotaDeVenda", b =>
@@ -91,28 +92,38 @@ namespace thirdProject.Migrations
                     b.Property<bool>("Cancelar")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int?>("ClienteId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime(6)");
 
                     b.Property<bool>("Devolver")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<int?>("ItemId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PagamentoId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("Tipo")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int?>("TipoDePagamentoId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TransportadoraId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("VendedorId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("ItemId");
+                    b.HasIndex("ClienteId");
 
-                    b.HasIndex("PagamentoId");
+                    b.HasIndex("TipoDePagamentoId");
 
-                    b.ToTable("NotaDeVenda");
+                    b.HasIndex("TransportadoraId");
+
+                    b.HasIndex("VendedorId");
+
+                    b.ToTable("NotasDeVendas");
                 });
 
             modelBuilder.Entity("thirdProject.Models.Pagamento", b =>
@@ -121,8 +132,8 @@ namespace thirdProject.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DataLimite")
-                        .HasColumnType("datetime(6)");
+                    b.Property<int?>("NotaDeVendaId")
+                        .HasColumnType("int");
 
                     b.Property<bool>("Pago")
                         .HasColumnType("tinyint(1)");
@@ -131,6 +142,8 @@ namespace thirdProject.Migrations
                         .HasColumnType("double");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("NotaDeVendaId");
 
                     b.ToTable("Pagamento");
                 });
@@ -145,7 +158,7 @@ namespace thirdProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("ItemId")
+                    b.Property<int>("MarcaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -160,9 +173,9 @@ namespace thirdProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ItemId");
+                    b.HasIndex("MarcaId");
 
-                    b.ToTable("Produto");
+                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("thirdProject.Models.TipoDePagamento", b =>
@@ -179,18 +192,13 @@ namespace thirdProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("NomeDoCobrador")
+                    b.Property<string>("NomeDoCobrado")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("NotaDeVendaId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("NotaDeVendaId");
-
-                    b.ToTable("TipoDePagamento");
+                    b.ToTable("TiposDePagamento");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("TipoDePagamento");
                 });
@@ -205,14 +213,9 @@ namespace thirdProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("NotaDeVendaId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("NotaDeVendaId");
-
-                    b.ToTable("Transportadora");
+                    b.ToTable("Transportadoras");
                 });
 
             modelBuilder.Entity("thirdProject.Models.Vendedor", b =>
@@ -225,14 +228,9 @@ namespace thirdProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("NotaDeVendaId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("NotaDeVendaId");
-
-                    b.ToTable("Vendedor");
+                    b.ToTable("Vendedores");
                 });
 
             modelBuilder.Entity("thirdProject.Models.PagamentoComCartao", b =>
@@ -264,94 +262,41 @@ namespace thirdProject.Migrations
                     b.HasDiscriminator().HasValue("PagamentoComCheque");
                 });
 
-            modelBuilder.Entity("thirdProject.Models.Cliente", b =>
+            modelBuilder.Entity("thirdProject.Models.Item", b =>
                 {
                     b.HasOne("thirdProject.Models.NotaDeVenda", "NotaDeVenda")
-                        .WithMany("Cliente")
+                        .WithMany("Itens")
                         .HasForeignKey("NotaDeVendaId");
 
-                    b.Navigation("NotaDeVenda");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.Marca", b =>
-                {
                     b.HasOne("thirdProject.Models.Produto", "Produto")
-                        .WithMany("Marca")
+                        .WithMany("Itens")
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Produto");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.NotaDeVenda", b =>
-                {
-                    b.HasOne("thirdProject.Models.Item", "Item")
-                        .WithMany("NotaDeVendas")
-                        .HasForeignKey("ItemId");
-
-                    b.HasOne("thirdProject.Models.Pagamento", "Pagamento")
-                        .WithMany("NotaDeVenda")
-                        .HasForeignKey("PagamentoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Item");
-
-                    b.Navigation("Pagamento");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.Produto", b =>
-                {
-                    b.HasOne("thirdProject.Models.Item", "Item")
-                        .WithMany("Produto")
-                        .HasForeignKey("ItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Item");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.TipoDePagamento", b =>
-                {
-                    b.HasOne("thirdProject.Models.NotaDeVenda", "NotaDeVenda")
-                        .WithMany("TipoDePagamento")
-                        .HasForeignKey("NotaDeVendaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("NotaDeVenda");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.Transportadora", b =>
-                {
-                    b.HasOne("thirdProject.Models.NotaDeVenda", "NotaDeVenda")
-                        .WithMany("Transportadora")
-                        .HasForeignKey("NotaDeVendaId");
-
-                    b.Navigation("NotaDeVenda");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.Vendedor", b =>
-                {
-                    b.HasOne("thirdProject.Models.NotaDeVenda", "NotaDeVenda")
-                        .WithMany("Vendedor")
-                        .HasForeignKey("NotaDeVendaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("NotaDeVenda");
-                });
-
-            modelBuilder.Entity("thirdProject.Models.Item", b =>
-                {
-                    b.Navigation("NotaDeVendas");
 
                     b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("thirdProject.Models.NotaDeVenda", b =>
                 {
+                    b.HasOne("thirdProject.Models.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId");
+
+                    b.HasOne("thirdProject.Models.TipoDePagamento", "TipoDePagamento")
+                        .WithMany()
+                        .HasForeignKey("TipoDePagamentoId");
+
+                    b.HasOne("thirdProject.Models.Transportadora", "Transportadora")
+                        .WithMany()
+                        .HasForeignKey("TransportadoraId");
+
+                    b.HasOne("thirdProject.Models.Vendedor", "Vendedor")
+                        .WithMany()
+                        .HasForeignKey("VendedorId");
+
                     b.Navigation("Cliente");
 
                     b.Navigation("TipoDePagamento");
@@ -363,12 +308,39 @@ namespace thirdProject.Migrations
 
             modelBuilder.Entity("thirdProject.Models.Pagamento", b =>
                 {
+                    b.HasOne("thirdProject.Models.NotaDeVenda", "NotaDeVenda")
+                        .WithMany("Pagamentos")
+                        .HasForeignKey("NotaDeVendaId");
+
                     b.Navigation("NotaDeVenda");
                 });
 
             modelBuilder.Entity("thirdProject.Models.Produto", b =>
                 {
+                    b.HasOne("thirdProject.Models.Marca", "Marca")
+                        .WithMany("Produtos")
+                        .HasForeignKey("MarcaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Marca");
+                });
+
+            modelBuilder.Entity("thirdProject.Models.Marca", b =>
+                {
+                    b.Navigation("Produtos");
+                });
+
+            modelBuilder.Entity("thirdProject.Models.NotaDeVenda", b =>
+                {
+                    b.Navigation("Itens");
+
+                    b.Navigation("Pagamentos");
+                });
+
+            modelBuilder.Entity("thirdProject.Models.Produto", b =>
+                {
+                    b.Navigation("Itens");
                 });
 #pragma warning restore 612, 618
         }
